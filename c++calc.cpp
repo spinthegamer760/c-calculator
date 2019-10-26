@@ -30,10 +30,39 @@ cout << "IMPUT FIRST NUMBER: \n";
 cin >> num1;
 cout << "PLUS: \n";
 cin >> num2;
-num1 + num2 == num3;
-cout << "YOUR SUM IS: " << num3 << "\n";
+num3 = num1 + num2;
+cout << "YOUR ANS IS: " << num3 << "\n";
 break;
-
+    
+  case 2:
+    //Subtraction
+    cout << "IMPUT FIRST NUMBER: \n";
+cin >> num1;
+    cout << "MINUS: \n";
+    cin >> num2;
+    num3 = num1 - num2;
+    cout << "YOUR ANS IS: " << num3 << "\n";
+    break;
+    
+  case 3:
+    //Multiplication
+    cout << "IMPUT FIRST NUMBER: \n";
+      cin >> num1;
+    cout << "TIMES: \n";
+    cin >> num2;
+    num3 = num1 * num2;
+    cout << "YOUR ANS IS: " << num3 << "\n";
+    break;
+    
+  case 4:
+    //Divison
+    cout << "IMPUT FIRST NUMBER: \n";
+    cin >> num1;
+    cout << "DIVIDED BY: \n";
+    cin >> num2;
+    num3 = num1 / num2;
+    cout << "YOUR ANS IS: " << num3 << "\n";
+    break;
 }
 
 }
