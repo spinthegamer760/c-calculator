@@ -1,1 +1,1 @@
-A calculator made by c++
+A calculator program written in c++
