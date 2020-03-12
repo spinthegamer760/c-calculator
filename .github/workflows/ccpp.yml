@@ -16,7 +16,7 @@ jobs:
     - name: WHY DO I NEED TO DO THIS
       run: sudo su
     - name: debug bot
-      run: ls
+      run: sudo ls
     - name: configure
       run: sudo ./configure
     - name: make
