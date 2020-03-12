@@ -19,7 +19,7 @@ cout << "INVALID CHOICE\n";
 cout << "CHOICE: \n";
 cin >> choice;
 }
-char a;
+char *a;
 switch(choice)
 
 //cases
