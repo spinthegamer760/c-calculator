@@ -15,11 +15,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: WHY DO I NEED TO DO THIS
       run: sudo su
-      run: echo l
     - name: debug bot
       run: ls
     - name: configure
-      run: ./configure
+      run: sudo ./configure
     - name: make
       run: make
     - name: make check
