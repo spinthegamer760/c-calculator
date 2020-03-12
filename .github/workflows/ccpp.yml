@@ -13,10 +13,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: WHY DO I NEED TO DO THIS
-      run: sudo ls
     - name: configure
-      run: sudo ./configure.sh
+      run: sudo configure.sh
     - name: make
       run: make
     - name: make check
